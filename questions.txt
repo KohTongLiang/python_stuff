@@ -1,0 +1,26 @@
+﻿a.	Add 5 shoppers’ name to a queue on a first-come-first-served basis.
+
+
+b.	Display the names from the queue on a first-come-first-served basis.
+
+
+c.	Start calling the shoppers by dequeuing a shopper and generate a random number, call to be between value 1 and 2. If call is 1, the shopper picked up the call. Otherwise, the shopper did not pick up the call.
+
+
+
+
+d.	Upon picking up the call, a random number, answer to be between value 1 and 2 is generated to simulate the answering of the question. If answer is 1, the shopper answered the question correctly. Otherwise, the shopper did not answer the question correctly.
+
+
+
+
+e.	However, if the shopper did not pick up the call, he/she will need to rejoin the queue.
+
+
+
+
+f.	After calling all 5 shoppers, display the following statistic:
+•	all shoppers in the queue with each of their name displayed correctly
+•	number of shoppers who did not pick up the call 
+•	percentage of shoppers who picked up the call and answered correctly 
+•	percentage of shoppers who picked up the call and did not answer correctly
