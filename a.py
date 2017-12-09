@@ -64,8 +64,8 @@ correct = int(correct)
 wrong = int(wrong)
 
 print("\n\nNumber of shoppers who picked up call and answered correctly:")
-print(((correct * 100) / total) + "%")
+print(str((correct * 100) / total) + "%")
 
 print("\n\nNumber of shoppers who picked up call and answered incorrectly:")
-print(((wrong * 100) / total) + "%")
+print(str((wrong * 100) / total) + "%")
 
