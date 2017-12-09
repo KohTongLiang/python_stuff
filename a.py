@@ -37,10 +37,12 @@ while not q.empty():
 
 		# check if shopper answered correctly
 		if answer_given == 1:
-			print("\n" + shopper + " answered correctly.")
+			# uncomment below for debugging
+			# print("\n" + shopper + " answered correctly.")
 			correct += 1
 		elif answer_given == 2:
-			print("\n" + shopper + " answered incorrectly.")
+			# uncomment below for debugging
+			# print("\n" + shopper + " answered incorrectly.")
 			wrong += 1
 
 	elif status == 2:
@@ -52,7 +54,7 @@ while not q.empty():
 print("\nAll shoppers who failed to answer the call and are still in queue:")
 no_answer = 0
 while not no_answer_q.empty():
-	print "\n" + no_answer_q.get()
+	print "" + no_answer_q.get()
 	no_answer += 1
 
 print("\n\nNumber of shoppers who failed to answer:")
